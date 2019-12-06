@@ -85,34 +85,34 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir 
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "test@example.org"
-phone = "888 888 88 88"
+email = "zlzustc@mail.ustc.edu.cn"
+phone = "+86-13026160695"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "450 Serra Mall", city = "Stanford", region = "CA", postcode = "94305", country = "United States", country_code = "US"}
+address = {street = "No.96, JinZhai Road Baohe District", city = "Hefei", region = "Anhui", postcode = "230026", country = "China", country_code = "P.R."}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "37.4275", longitude = "-122.1697"}
+# coordinates = {latitude = "37.4275", longitude = "-122.1697"}
 
 # Directions for visitors to locate you.
-directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
+# directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
 office_hours = ["Monday 10:00 to 13:00", "Wednesday 09:00 to 10:00"]
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = "https://calendly.com"
+# appointment_url = "https://calendly.com"
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Twitter"},
-  {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
-  {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
-  {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
+  {icon = "ResearchGate", icon_pack = "fab", name = "Wei Hu", link = "https://www.researchgate.net/profile/Wei_Hu20?ev=hdr_xprf"},
+#  {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
+#  {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
+#  {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
   ]
 
@@ -121,10 +121,10 @@ contact_links = [
 ############################
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
-sharing_image = ""
+# sharing_image = ""
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
-twitter = ""
+# twitter = ""
 
 ############################
 ## Regional Settings
@@ -147,7 +147,7 @@ address_format = "en-us"
 gravatar = false
 
 # Main menu alignment (l = left, c = center, r = right) and logo options.
-main_menu = {align = "l", show_logo = true}
+main_menu = {align = "c", show_logo = true}
 
 # Show estimated reading time for posts? (true/false)
 reading_time = true
@@ -157,14 +157,14 @@ section_pager = false
 docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
 
 # Enable in-built social sharing buttons? (true/false)
-sharing = true
+sharing = false
 
 # Link authors to their profile page? (true/false)
 link_authors = true
 
 # Load JS plugins
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
-plugins_js  = []
+# plugins_js  = []
 
 # Available address formats.
 [address_formats]
@@ -190,9 +190,9 @@ plugins_js  = []
   #   2: Compact
   #   3: Card
   #   4: Citation (publications only)
-  post_view = 2
-  publication_view = 2
-  talk_view = 2
+  post_view = 1
+  publication_view = 1
+  talk_view = 1
 
 ############################
 ## Comments
@@ -220,41 +220,18 @@ plugins_js  = []
   #   0: No search engine
   #   1: Academic (built-in)
   #   2: Algolia (https://www.algolia.com)
-  engine = 1
+  engine = 0
 
   # Configuration of Algolia search engine.
   # Paste the values from your Algolia dashboard.
-  [search.algolia]
-    app_id = ""
-    api_key = ""
-    index_name = ""
-    show_logo = false
+  # [search.algolia]
+    # app_id = ""
+    # api_key = ""
+    # index_name = ""
+    # show_logo = false
 
 ############################
-## Maps
-############################
-[map]
-  # To show your address on a map in the Contact widget, enter your latitude and longitude (above)
-  # and choose a map provider below.
-  #
-  # To use Google Maps, set `engine` to 1 and enter your API key that can be obtained here:
-  #   https://developers.google.com/maps/documentation/javascript/get-api-key
-  # To use OpenStreetMap tiles, set `engine` to 2.
-  # To use OpenStreetMap on a high traffic site, set `engine` to 3 and enter your API key that can be obtained here:
-  #   https://www.mapbox.com/studio/account/tokens
-  #
-  # Map provider:
-  #   0: No map
-  #   1: Google Maps
-  #   2: OpenStreetMap (Mapnik)
-  #   3: OpenStreetMap (Mapbox)
-  engine = 2
-  api_key = ""
-  zoom = 15
+
 
 ############################
-## Marketing
-############################
-[marketing]
-  google_analytics = ""
-  google_tag_manager = ""
+
