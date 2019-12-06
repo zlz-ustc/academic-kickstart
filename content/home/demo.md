@@ -52,15 +52,13 @@ subtitle = ""
 
 Welcome to the **Academic Kickstart** template!
 
-HONPAS （Hefei Order-N packages for ab initio simulations ，合肥线性标度从头模拟软
-件包）是一款第一性原理电子结构计算软件包，能够对周期性复杂大体系的基态电子结构实
-现线性标度高性能计算。
+HONPAS （Hefei Order-N packages for ab initio simulations ，
 
 
-- [第一章 简介](https://sourcethemes.com/academic/docs/)
-- [第二章 编译部分](http://discuss.gohugo.io/)
-- [第三章 算例](https://github.com/gcushen/hugo-academic/issues)
-- 第四章 [参数部分](https://sourcethemes.com/academic/docs/update/) and [Release Notes](https://sourcethemes.com/academic/updates/)
+- [INTROCTION](https://sourcethemes.com/academic/docs/)
+- [EXAMPLE](http://discuss.gohugo.io/)
+- [TAG](https://github.com/gcushen/hugo-academic/issues)
+- THE SECOND PART [OVERRALL](https://sourcethemes.com/academic/docs/update/) and [Release Notes](https://sourcethemes.com/academic/updates/)
 
 
 {{% alert note %}}
